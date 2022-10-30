@@ -1,0 +1,12 @@
+
+
+#########       Rounte
+
+npm install react-router-dom --save
+
+
+
+
+########      react -spinner
+
+npm install react-loader-spinner@4.0.0 --save
