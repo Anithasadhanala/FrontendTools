@@ -1,0 +1,25 @@
+
+#######    1 .   UUID
+
+import {v4 as uuidv4} from 'uuid'
+
+ id: uuidv4()
+ 
+ 
+ 
+ #######   2.   Loader from react import
+ 
+ 
+ import Loader from 'react-loader-spinner'  ----------- It is initially true and when the api is done, make the state change the data know, then add loader var also to false
+ 
+  <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+  
+  
+  ######  3. Cookie
+  
+  npm install js-cookie --save
+  
+  import Cookies from 'js-cookie'
+  
+  
+  #####   4.
